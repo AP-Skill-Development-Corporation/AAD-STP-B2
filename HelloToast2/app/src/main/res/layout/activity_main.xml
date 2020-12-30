@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
-    android:orientation="vertical"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    android:orientation="vertical">
 
     <Button
         android:layout_width="match_parent"
@@ -27,8 +27,8 @@
         android:gravity="center"
         android:textColor="#000"
         android:textStyle="bold"
+        android:id="@+id/textcount"
         />
-
 
     <Button
         android:layout_width="match_parent"
@@ -39,8 +39,6 @@
         android:textSize="25sp"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
+        android:id="@+id/countINC"
         />
-
-
-
 </LinearLayout>
