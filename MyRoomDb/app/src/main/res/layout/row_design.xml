@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/row_edit"
+        android:layout_margin="5dp"
+        android:background="@drawable/ic_baseline_edit_24"
+        android:textSize="40sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RollNumber"
+        android:layout_margin="5dp"
+        android:id="@+id/row_rollNumber"
+        android:textSize="40sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_margin="5dp"
+        android:id="@+id/row_name"
+        android:textSize="40sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/row_delete"
+        android:layout_margin="5dp"
+        android:background="@drawable/ic_baseline_delete_24"
+        android:textSize="40sp"/>
+
+
+</LinearLayout>
